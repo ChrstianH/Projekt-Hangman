@@ -1,0 +1,25 @@
+#spielfeld {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 330px;
+  margin: 0 auto;
+}
+p {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+#tippfeld > button {
+  width: 26px;
+  margin: 2px;
+}
+button#restart {
+  width: 100px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+}

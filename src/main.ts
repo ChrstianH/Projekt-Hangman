@@ -63,7 +63,7 @@ letters.forEach((letter: string) => {
         "<p>" + runde.toString() + " : " + rundenzahl.toString() + "</p>";
     }
     if (runde === rundenzahl) {
-      spielstand.innerHTML = "GAME OVER";
+      spielstand.innerHTML = "<p>GAME OVER</p>";
     } else {
       let erraten: boolean = true;
       for (let index: number = 0; index < wordArray.length; index++) {
@@ -73,7 +73,7 @@ letters.forEach((letter: string) => {
         }
       }
       if (erraten) {
-        spielstand.innerHTML = "GEWONNEN";
+        spielstand.innerHTML = "<p>GEWONNEN!</p>";
       }
     }
   });
